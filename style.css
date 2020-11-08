@@ -1,0 +1,554 @@
+body {
+	background: #ededed;
+	line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+	margin-left:120px;
+	min-height: 812px;
+  width:960px;
+}
+
+.main1{
+	margin-left:120px;
+	min-height: 812px;
+  width:960px;
+}
+  
+.logo {
+  position: absolute;
+  margin-left: -2px;
+  margin-bottom:30px;
+  padding: 20px;
+ }
+
+ header .logo h2 a{
+   text-decoration: none;
+   color: white;
+   padding:3px;
+   font-family:'Lobster', cursive;
+   background-color: white;
+   -webkit-text-stroke:1px rgb(173, 23, 23);
+   font-size: 40px;
+}
+
+
+nav{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  text-align: center;
+  height:100px;
+  padding-left:100px;
+  border: 2px solid rgb(173, 23, 23);
+}
+
+
+.item1 {
+  background-image:url(./barbershop\ pics/.logo);
+  object-fit: contain;
+  border: 2px solid rgb(173, 23, 23);
+  border-radius: 4px;
+  margin-left:150px;
+	overflow: hidden;
+  width: 936px;
+  height: 360px;
+  /* width:auto ;
+  height: auto; */
+  margin-top:40px;
+  position: relative;
+  box-shadow: 4px 3px rgb(173, 23, 23);;
+}
+
+
+.item6 a{
+  color: white;
+  font-size:20px;
+  margin-top: 40px;
+  margin-right: 70px;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 12px;
+  height: 18px;
+  border-radius: 5px;
+  background-color:rgb(173, 23, 23);
+  font-style: italic;
+}
+
+.item1 h1{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  font-size:60px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  margin-left:30%;
+  -webkit-text-stroke:  2px rgb(173, 23, 23);
+  top: 0px;
+  right: 550px;
+  left:-250px;
+  height: 300px;
+  padding-left:100px;
+  width: 100px;
+}
+  
+ul{
+  display: flex;
+  justify-content: space-between;
+  flex-direction:row;
+  list-style: none;
+  padding: 22px;
+}
+
+ ul li img{
+  border: 1px solid rgb(173, 23, 23);
+  box-shadow: 2px 5px rgb(173, 23, 23);
+}
+
+li {
+  text-align: center;
+  text-decoration: none;
+} 
+
+li p{
+  padding: 10px;
+  width:220px;
+}
+
+.body h3{
+  text-align: center;
+  display: inline;
+  margin-left: 50px;
+  
+}
+
+.body{
+  display:flex;
+  flex-direction: column;
+  flex-direction: row;
+  width:960px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.body .featured{
+  width: 600px;
+  height: 650px;
+  padding:10px;
+  padding-top: 60px;
+  border:3px solid  rgb(173, 23, 23);
+  border: 3px solid black;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-right:13px;
+  margin-top: 35px;
+  border-radius:5px;
+  background-color: white;
+}
+
+.main p{
+  font-style: italic;
+}
+
+.body .section{
+  display: flex;
+  flex-direction:column;
+  display: inline;
+  width: 760px;
+  height:10px;
+}
+
+.article{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(173, 23, 23);
+  background-color: white;
+  color: black;
+  padding: 30px;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 9px;
+  margin-top: 35px;
+  border-radius: 7px;
+  font-size: 17px;
+}
+
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(173, 23, 23);;
+  color:white;
+  background-color: rgb(173, 23, 23);;
+  border-radius:10px;
+  padding: 10px;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+  font-size: 17px;
+}
+
+.item2{
+  display: flex;
+  top:0 ;
+  left: 0;
+  right: 0;
+  bottom: 1500;
+  position: absolute;
+  border: 2px solid black;
+  width: 130px;
+  height: 30px;
+  background-color:rgb(173, 23, 23);
+  color:white;
+  padding:10px;
+  border-radius: 5px;
+}
+
+.item4{
+position: absolute;
+top:0;
+background-color:white;
+border:2px solid rgb(173, 23, 23);;
+font-size:30px;
+border-radius: 10px;
+color: rgb(173, 23, 23);;
+padding: 10px;
+}
+
+/* About Page Below */
+/* About Page Below */
+/* About Page below */
+
+.main1{
+  line-height: 2;
+  margin-left:150px ;
+}
+
+ .main2 h2{
+  margin-bottom: 70px;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 30px;
+}
+
+.main2 p{
+  margin: 30px;
+  margin-top:0;
+  margin-bottom: 60px;
+  padding:10px;
+  font-style: italic;
+  font-size: 15px;
+  border: 5px double black;
+  border-radius:10px ;
+}
+
+      /* HairStyle Below */
+      /* HairStyle Below */
+      /* HairStyle Below */
+
+
+ .main3 img{
+   display: grid;
+   display:inline;
+   box-shadow: 3px 5px rgb(173, 23, 23);
+   grid-gap:0px;
+   margin: 5px;
+   border: 1px solid black;
+}
+
+.main3 h3{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+      /* Contact Below */
+      /* Contact Below */
+      /* Contact Below */
+
+
+.main4{
+  display: flex;
+  flex-direction:row;
+  text-align: center;
+  justify-content: space-between;
+  padding: 0px;
+  height:400px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  justify-content: space-between;
+  height:100%;
+  width:auto;
+  order:1 ;
+  padding: 13px;
+  margin-left: 80px;
+  }
+
+input{
+  height: 30px;
+  width: 500px;
+  border:1px solid black
+}
+
+
+.alexa{
+    width: 370px;
+    background-color: white;
+  }
+
+textarea{
+  max-width:500px;
+  max-height:100px;
+  min-height:100px ;
+  min-width:500px ;
+}
+
+.item7{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  padding:10px;
+  height: 100%;
+  border:2px solid rgb(173, 23, 23);
+  background-color:white;
+}
+
+.item8{
+  font-size: 30px;
+  display: inline-flex;
+  font-family:'Balsamiq Sans', cursive;
+}
+
+select {
+  width: 150px;
+}
+
+  /*/// NEWS BELOW /// */
+  /*/// NEWS BELOW /// */
+  /*/// NEWS BELOW /// */
+
+ .blog{
+   display: grid;
+   grid-template-columns:65% 35%;
+   margin-top: 30px;
+   grid-gap: 0px;
+ }
+ 
+ .blog p{
+   margin-left: 30px;
+ }
+
+ .blog h3{
+   margin-left: 5px;
+ }
+ .blog .item20{
+   text-align: center;
+   font-family: 'Balsamiq Sans', cursive;;
+ }
+
+ .news h1{
+   font-family: 'Balsamiq Sans', cursive;;
+ }
+
+.news{
+  padding: 5px;
+}
+
+.news p{
+  color:rgb(173, 23, 23);
+  font-size: 17px;
+}
+
+.sidebar{
+  border: 3px solid rgb(173, 23, 23);
+  background-color: white;
+  padding: 5px;
+  margin-top: 35px;
+  height: fit-content;
+}
+
+.sidebar p{
+  font-size: 13px;
+  margin-top: -20px;
+}
+
+
+
+
+@media (max-width:680px){
+
+  header .logo  h2 a{
+    color: lawngreen;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .item6{
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+
+  .item1{
+    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: center;
+ }
+ .item1 h1{
+   margin-left:330px;
+ }
+
+  ul{
+    flex-wrap: wrap;
+    height: fit-content;
+    flex-direction: column;
+    width: fit-content;
+    width: max-content;
+    display: inline-flex;
+    margin-left: 60px;
+  }
+ .body{
+   flex-wrap: wrap;
+   width: 380px;
+   width:auto;
+   height:900px;
+   margin-left: -90px;
+ }
+
+ .article{
+   width: 560px;
+   flex-wrap: wrap;
+ }
+ .newsletter{
+   width: 600px;
+ }
+
+ .item4{
+   margin-top:850px;
+ }
+
+ .main1{
+   flex-wrap: wrap;
+   flex-direction: column;
+   width: auto;
+ }
+
+ .main2{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+ }
+
+ .main4{
+   justify-content: center;
+   flex-wrap:wrap ;
+   width:auto;
+ }
+
+ .form{
+   margin-left: 700px;
+   flex-wrap: wrap;
+ }
+
+ .blog{
+   grid-template-columns: 1fr;
+ }
+
+
+
+
+}
+
+@media (max-width:1000px){
+
+  header .logo  h2 a{
+    color: lawngreen;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .item6{
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+
+  .item1{
+    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: center;
+ }
+ .item1 h1{
+   margin-left:330px;
+ }
+
+  ul{
+    flex-wrap: wrap;
+    height: fit-content;
+    flex-direction: column;
+    width: fit-content;
+    width: max-content;
+    display: inline-flex;
+    margin-left: 60px;
+  }
+ .body{
+   flex-wrap: wrap;
+   width: 380px;
+   width:auto;
+   height:900px;
+   margin-left: -90px;
+ }
+
+ .article{
+   width: 560px;
+   flex-wrap: wrap;
+ }
+ .newsletter{
+   width: 600px;
+ }
+
+ .item4{
+   margin-top:850px;
+ }
+
+ .main1{
+   flex-wrap: wrap;
+   flex-direction: column;
+   width: auto;
+ }
+
+ .main2{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+ }
+
+ .main4{
+   justify-content: center;
+   flex-wrap:wrap ;
+   width:auto;
+ }
+
+ .form{
+   margin-left: 700px;
+   flex-wrap: wrap;
+ }
+
+ .blog{
+   grid-template-columns: 1fr;
+ }
+
+
+
+
+}
+
